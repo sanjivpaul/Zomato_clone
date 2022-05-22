@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;;
+}
+
+.main-section {
+  width: 100%;
+  height: 60vh;
+  background-color: lightcoral;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* background: linear-gradient(
+        45deg,
+        blue,
+        green,
+        yellow,
+    ); */
+
+    /* background-image: linear-gradient(transparent black); */
+}
+
+/*
+flex-direction: column;
+justify-content: ; vertically
+align-items: ; horizontally
+*/
+
+/*
+flex-direction: row;
+justify-content: ; horizontally
+align-items: ; vertically
+*/
+
+.main-section-header{
+  width: 80%;
+
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 0px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding: 14px 12px;
+}
+
+.create-account {
+  border: 1px solid white;
+  margin-left: 16px;
+}
+
+.brand {
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* font property */
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+
+  border-radius: 50%;
+  background-color: white;
+  padding: 10px;
+}
+
+.brand-logo {
+  color: #ae1c91;
+}
+
+.main-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.search {
+  width: 524px;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+
+.search-location {
+  width: 25%;
+  padding: 12px 8px;
+}
+
+.search-resturants {
+  width: 60%;
+  padding: 12px 8px;
+}
+
+/* second-part */
+.quick-search{
+    display: flex;
+    justify-content: center;
+
+}
+.quick-search-area{
+    width: 80%;
+    margin: 32px 0;
+
+
+}
+
+.quick-search-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #192f60;
+    margin: 4px 0;
+
+}
+
+.subtitle-color{
+
+    color: grey;
+}
+
+.quick-search-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px; /* for giving subtitle space*/
+
+}
+
+.food-items{
+    width: 30%;
+    display: flex;
+    box-shadow: 0px 0px 5px 0px grey;
+    /*shadow units: x-axis y-axis blur scale color*/
+    margin-bottom: 20px;
+}
+
+.food-items-img{
+    width: 60%;
+    height: 20vh;
+
+}
+
+.food-items-text-area{
+    padding: 16px;
+}
+
+.food-items-title{
+    font-weight: bold;
+    color: #192F60;
+    margin: 4px 0;
+    margin-top: 10px;
+
+}
+.food-items-sub-title{
+    color: grey;
+    font-size: 13px;
+    
+}
+
+/*
+
+% --- is depend on the parent area
+vh---is depends on browser area
+vw---is depends on browser area
+*/
+
